@@ -1,12 +1,29 @@
 {
   "name": "to-board-do",
   "version": "1.0.0",
-  "description": "A simple and userfull \"to do board\"",
+  "description": "A simple and userfull \"to do board\" using expressJs",
   "main": "index.js",
   "repository": "git@github.com-personal:ShashankAG25/to-board-do.git",
   "author": "Shashank A G",
   "license": "MIT",
+  "type": "module",
+  "keywords": [
+    "express",
+    "to-do",
+    "to-board-do"
+  ],
   "dependencies": {
-    "express": "^4.21.2"
+    "@prisma/client": "^6.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prisma": "^6.1.0",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
