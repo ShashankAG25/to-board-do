@@ -1,0 +1,12 @@
+{
+  "name": "to-board-do",
+  "version": "1.0.0",
+  "description": "A simple and userfull \"to do board\"",
+  "main": "index.js",
+  "repository": "git@github.com-personal:ShashankAG25/to-board-do.git",
+  "author": "Shashank A G",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
