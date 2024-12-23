@@ -1,9 +1,9 @@
 import { createUser as createUserService } from "../services/user.servcie.js";
-import userValidator from "../validators/user.validator.js";
+import { createUserValidator } from "../validators/user.validator.js";
 
 async function createUser(req, res) {
   try {
-    await userValidator.validate(req.body, { abortEarly: false });
+    await createUserValidator.validate(req.body, { abortEarly: false });
 
     // If validation passes, proceed to create the user
     const user = await createUserService(req.body);

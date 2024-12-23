@@ -1,4 +1,4 @@
-import prisma from "../prisma/prisma.client"; // Prisma client import
+import prisma from "../prisma/prisma.client.js";
 
 async function createUser(userData) {
   try {
